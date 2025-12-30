@@ -114,12 +114,13 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col max-w-lg mx-auto relative bg-[#faf9f6] dark:bg-[#121212] transition-colors duration-500">
       
-      {/* Контролы вверху: Язык и Тема */}
-      <div className="absolute top-4 right-4 z-50 flex items-center gap-2">
-        {/* Переключатель темы */}
+      {/* Контролы вверху */}
+      
+      {/* Переключатель темы (СЛЕВА) */}
+      <div className="absolute top-4 left-4 z-50">
         <button 
           onClick={toggleThemeManual}
-          className="p-2 rounded-full bg-white/50 dark:bg-black/30 backdrop-blur border border-[#9a644d]/10 text-[#9a644d] dark:text-[#b8866b]"
+          className="p-2 rounded-full bg-white/50 dark:bg-black/30 backdrop-blur border border-[#9a644d]/10 text-[#9a644d] dark:text-[#b8866b] shadow-sm transition-all active:scale-90"
         >
           {isDark ? (
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256">
@@ -131,22 +132,22 @@ const App: React.FC = () => {
             </svg>
           )}
         </button>
+      </div>
 
-        {/* Языки */}
-        <div className="flex bg-white/50 dark:bg-black/30 backdrop-blur rounded-full p-1 border border-[#9a644d]/10">
-          <button 
-            onClick={() => { handleImpact(); setLang('ru'); }}
-            className={`px-3 py-1 rounded-full text-[10px] font-bold transition-all ${lang === 'ru' ? 'bg-[#9a644d] text-white shadow-sm' : 'text-[#9a644d] dark:text-[#b8866b] opacity-60'}`}
-          >
-            RU
-          </button>
-          <button 
-            onClick={() => { handleImpact(); setLang('uz'); }}
-            className={`px-3 py-1 rounded-full text-[10px] font-bold transition-all ${lang === 'uz' ? 'bg-[#9a644d] text-white shadow-sm' : 'text-[#9a644d] dark:text-[#b8866b] opacity-60'}`}
-          >
-            UZ
-          </button>
-        </div>
+      {/* Переключатель языков (СПРАВА) */}
+      <div className="absolute top-4 right-4 z-50 flex bg-white/50 dark:bg-black/30 backdrop-blur rounded-full p-1 border border-[#9a644d]/10">
+        <button 
+          onClick={() => { handleImpact(); setLang('ru'); }}
+          className={`px-3 py-1 rounded-full text-[10px] font-bold transition-all ${lang === 'ru' ? 'bg-[#9a644d] text-white shadow-sm' : 'text-[#9a644d] dark:text-[#b8866b] opacity-60'}`}
+        >
+          RU
+        </button>
+        <button 
+          onClick={() => { handleImpact(); setLang('uz'); }}
+          className={`px-3 py-1 rounded-full text-[10px] font-bold transition-all ${lang === 'uz' ? 'bg-[#9a644d] text-white shadow-sm' : 'text-[#9a644d] dark:text-[#b8866b] opacity-60'}`}
+        >
+          UZ
+        </button>
       </div>
 
       {currentView !== 'home' && (
