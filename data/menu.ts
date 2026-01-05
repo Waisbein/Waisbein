@@ -38,7 +38,7 @@ export const menuItems: MenuItem[] = [
     name: { ru: 'Салат со свеклой', uz: 'Lavlagili salat' },
     longDescription: {
       ru: 'Нежная запечённая свёкла, свежие дольки апельсина, козий сыр микс салат, крутоны, кедровые орехи. Подаётся под заправкой на основе свежевыжатого апельсинового сока "Цитронет" и оливковым маслом.',
-      uz: 'Yumshoq pishirilgan lavlagi, yangi apelsin bo\'laklari, echki pishlog\'i miks salat, krutonlar, kedr yong\'oqlari. Yangi siqilgan apelsin sharbati asosidagi "Sitronet" sousi va zaytun moyi bilan tortiladi.'
+      uz: 'Yumshoq pishirilgan lavlagi, yangi аpelsin bo\'laklari, echki pishlog\'i miks salat, krutonlar, kedr yong\'oqlari. Yangi siqilgan аpelsin sharbati asosidagi "Sitronet" sousi va zaytun moyi bilan tortiladi.'
     },
     allergens: { ru: 'Лактоза, глютен, орехи, цитрус', uz: 'Laktosa, glyuten, yong\'oqlar, sitrus' },
     price: 65000,
@@ -73,7 +73,7 @@ export const menuItems: MenuItem[] = [
     image: `${ASSETS_BASE_URL}/${NEWS_FOLDER}/KruassanSRietomIzLososya.png`
   },
 
-  // ЗАВТРАКИ (ОБНОВЛЕНО ПО СКРИНШОТУ)
+  // ЗАВТРАКИ
   {
     id: 'br-1',
     name: { ru: 'Чиа-пудинг с сезонными ягодами и фруктами', uz: 'Mavsumiy rezavorlar va mevalar bilan chia-puding' },
@@ -86,7 +86,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 'br-2',
     name: { ru: 'Гранола классическая', uz: 'Klassik granola' },
-    longDescription: { ru: 'Хрустящая гранола с сухофруктами и орехами. Подается с натуральным йогуртом.', uz: 'Quritilgan mevalar va yong\'oqlar bilan karsillaydigan granola. Tabiiy yogurt bilan tortiladi.' },
+    longDescription: { ru: 'Хрустящая гранола with сухофруктами и орехами. Подается с натуральным йогуртом.', uz: 'Quritilgan mevalar va yong\'oqlar bilan karsillaydigan granola. Tabiiy yogurt bilan tortiladi.' },
     allergens: { ru: 'лактоза, орехи, мед, глютен', uz: 'laktosa, yong\'oqlar, asal, glyuten' },
     price: 45000,
     category: 'breakfast',
@@ -95,7 +95,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 'br-3',
     name: { ru: 'Каша 5 злаков на кокосовом молоке', uz: 'Kokos sutida 5 xil yormadan tayyorlangan bo\'tqa' },
-    longDescription: { ru: 'Каша из 5 злаков (состоят из смеси резаных круп овсяной, пшеничной, ячменной, ржаной и кукурузной) на кокосовом молоке с сезонными ягодами.', uz: '5 xil yormadan (suli, bug\'doy, arpa, javdar va makkajo\'xori) kokos sutida tayyorlangan bo\'tqa, mavsumiy rezavorlar bilan.' },
+    longDescription: { ru: 'Каша из 5 злаков (состоят из смеси резаных круп овсяной, пшеничной, ячменной, ржаной и кукурузной) на кокосовом молоке with сезонными ягодами.', uz: '5 xil yormadan (suli, bug\'doy, arpa, javdar va makkajo\'xori) kokos sutida tayyorlangan bo\'tqa, mavsumiy rezavorlar bilan.' },
     allergens: { ru: 'глютен', uz: 'glyuten' },
     price: 45000,
     category: 'breakfast',
@@ -103,7 +103,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'br-4',
-    name: { ru: 'Каша 5 злаков с фруктами на молоке', uz: 'Sutda mevalar bilan 5 xil yormadan tayyorlangan bo\'tqa' },
+    name: { ru: 'Каша 5 злаков с фруктами на молоке', uz: 'Sutda mevalar билан 5 xil yormadan tayyorlangan bo\'tqa' },
     longDescription: { ru: 'Каша из 5 злаков (состоят из смеси резаных круп овсяной, пшеничной, ячменной, ржаной и кукурузной) на молоке с фруктами и с сезонными ягодами.', uz: '5 xil yormadan (suli, bug\'doy, arpa, javdar va makkajo\'xori) sutda tayyorlangan bo\'tqa, mevalar va mavsumiy rezavorlar bilan.' },
     allergens: { ru: 'глютен, лактоза и цитрус', uz: 'glyuten, laktosa va sitrus' },
     price: 40000,
@@ -139,7 +139,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'br-8',
-    name: { ru: 'Классический завтрак Bon! с говяжьими колбасками', uz: 'Mol go\'shtli kolbasalar bilan Bon! классик nonushtasi' },
+    name: { ru: 'Классический завтрак Bon! с говяжьими колбасками', uz: 'Mol go\'shtli kolbasalar bilan Bon! klassik nonushtasi' },
     longDescription: { ru: 'Два жареных яйца, артизанский льняной хлеб, запечённые томаты и грибы. Подаётся с микс-салатом под зелёным маслом из укропа.', uz: 'Ikkita qovurilgan tuxum, artizan zig\'ir noni, pishirilgan pomidor va qo\'ziqorinlar. Shivitli yashil moy bilan miks-salat hamrohligida tortiladi.' },
     allergens: { ru: 'яйцо, семечки подсолнечника, грибы, глютен', uz: 'tuxum, kungaboqar urug\'lari, qo\'ziqorinlar, glyuten' },
     price: 50000,
@@ -148,7 +148,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'br-9',
-    name: { ru: 'Классический завтрак Bon! с куриным филе', uz: 'Tovuq filesi bilan Bon! классик nonushtasi' },
+    name: { ru: 'Классический завтрак Bon! с куриным филе', uz: 'Tovuq filesi bilan Bon! klassik nonushtasi' },
     longDescription: { ru: 'Два жареных яйца, артизанский льняной хлеб, запечённые томаты и грибы. Подаётся with микс-салатом под зелёным маслом из укропа.', uz: 'Ikkita qovurilgan tuxum, artizan zig\'ir noni, pishirilgan pomidor va qo\'ziqorinlar. Shivitli yashil moy bilan miks-salat hamrohligida tortiladi.' },
     allergens: { ru: 'яйцо, семечки подсолнечника, грибы, глютен', uz: 'tuxum, kungaboqar urug\'lari, qo\'ziqorinlar, glyuten' },
     price: 50000,
@@ -195,7 +195,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 's3',
     name: { ru: 'Рикотник с мороженым', uz: 'Muzqaymoqli rikotnik' },
-    description: { ru: 'Тёплые рикотники с ванильным мороженым', uz: 'Vanilli muzqaymoq bilan issiq rikotnikлар' },
+    description: { ru: 'Тёплые рикотники с ванильным мороженым', uz: 'Vanilli muzqaymoq билан issiq rikotnikлар' },
     longDescription: {
       ru: 'Тёплые рикотники на основе сыра "Рикотта" и манной крупы. Подаются с ванильным мороженым, ягодным джемом, гранолой и голубикой.',
       uz: '"Rikotta" pishlog\'i va manniy yormasi asosidagi issiq rikotniklar. Vanilli muzqaymoq, rezavorli jem, granola va ko\'k meva com tortiladi.'
@@ -259,6 +259,11 @@ export const menuItems: MenuItem[] = [
   {
     id: 'c7',
     name: { ru: 'Сироп на выбор', uz: 'Tanlov bo\'yicha sirop' },
+    description: { ru: 'фисташковый, ванильный, малиновый, ореховый, карамельный', uz: 'pistashkali, vanilli, malinali, yong\'oqli, karamelli' },
+    longDescription: { 
+      ru: 'Ванильный, малиновый, ореховый, карамельный, фисташковый.', 
+      uz: 'Vanilli, malinali, yong\'oqli, karamelli, pistali.' 
+    },
     price: 7000,
     category: 'coffee',
     image: "https://raw.githubusercontent.com/Waisbein/Waisbein/main/public/menu/%D0%9A%D0%BE%D1%84%D0%B5/sirop.jpg"
@@ -285,6 +290,37 @@ export const menuItems: MenuItem[] = [
 ];
 
 export const branches: Branch[] = [
-  { id: 't1', name: { ru: 'Bon! Фидокор', uz: 'Bon! Fidokor' }, address: { ru: 'ул. Фидокор, 40', uz: 'Fidokor ko\'chasi, 40' }, workingHours: { ru: '07:30 - 22:00', uz: '07:30 - 22:00' }, phone: '+998 78 150 18 34', coordinates: { lat: 41.2995, lng: 69.2825 } },
-  { id: 't2', name: { ru: 'Bon! Укчи', uz: 'Bon! Ukchi' }, address: { ru: 'ул. Укчи, 5', uz: 'O\'qchi ko\'chasi, 5' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 855 01 59', coordinates: { lat: 41.3111, lng: 69.2522 } }
+  // ТАШКЕНТ
+  { id: 't1', name: { ru: 'Bon! Фидокор', uz: 'Bon! Fidokor' }, address: { ru: 'Ташкент, ул. Фидокор, 40', uz: 'Toshkent, Fidokor ko\'chasi, 40' }, workingHours: { ru: '07:30 - 22:00', uz: '07:30 - 22:00' }, phone: '+998 78 150 18 34', coordinates: { lat: 41.2995, lng: 69.2825 } },
+  { id: 't2', name: { ru: 'Bon! Укчи', uz: 'Bon! Ukchi' }, address: { ru: 'Ташкент, ул. Укчи, 5', uz: 'Toshkent, O\'qchi ko\'chasi, 5' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 855 01 59', coordinates: { lat: 41.3111, lng: 69.2522 } },
+  { id: 't3', name: { ru: 'Bon! Шота Руставели', uz: 'Bon! Shota Rustaveli' }, address: { ru: 'Ташкент, ул. Шота Руставели, 63', uz: 'Toshkent, Shota Rustaveli ko\'chasi, 63' }, workingHours: { ru: '07:30 - 22:00', uz: '07:30 - 22:00' }, phone: '+998 99 444 18 01', coordinates: { lat: 41.2842, lng: 69.2621 } },
+  { id: 't4', name: { ru: 'Bon! Беруни', uz: 'Bon! Beruniy' }, address: { ru: 'Ташкент, Проспект Беруни, 12', uz: 'Toshkent, Beruniy ko\'chasi, 12' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 99 444 38 98', coordinates: { lat: 41.3402, lng: 69.2085 } },
+  { id: 't5', name: { ru: 'Bon! Тараса Шевченко', uz: 'Bon! Tarasa Shevchenko' }, address: { ru: 'Ташкент, ул. Тараса Шевченко, 28', uz: 'Toshkent, Taras Shevchenko ko\'chasi, 28' }, workingHours: { ru: '07:30 - 22:00', uz: '07:30 - 22:00' }, phone: '+998 71 252 56 94', coordinates: { lat: 41.3001, lng: 69.2785 } },
+  { id: 't6', name: { ru: 'Bon! Глинки', uz: 'Bon! Glinka' }, address: { ru: 'Ташкент, ул. Глинки, 46', uz: 'Toshkent, Glinka ko\'chasi, 46' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 77 391 58 50', coordinates: { lat: 41.2885, lng: 69.2612 } },
+  { id: 't7', name: { ru: 'Bon! Буюк Ипак Йули', uz: 'Bon! Buyuk Ipak Yo\'li' }, address: { ru: 'Ташкент, Массив Буюк Ипак Йули, 44', uz: 'Toshkent, Buyuk Ipak Yo\'li, 44' }, workingHours: { ru: '07:30 - 22:00', uz: '07:30 - 22:00' }, phone: '+998 71 232 00 08', coordinates: { lat: 41.3265, lng: 69.3285 } },
+  { id: 't8', name: { ru: 'Bon! Тимура Малика', uz: 'Bon! Temur Malik' }, address: { ru: 'Ташкент, ул. Тимура Малика, 3', uz: 'Toshkent, Temur Malik ko\'chasi, 3' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 99 444 38 09', coordinates: { lat: 41.3412, lng: 69.3456 } },
+  { id: 't9', name: { ru: 'Bon! Малая Кольцевая', uz: 'Bon! Kichik halqa yo\'li' }, address: { ru: 'Ташкент, Малая кольцевая, 26', uz: 'Toshkent, Kichik halqa yo\'li, 26' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 77 448-01-91', coordinates: { lat: 41.2856, lng: 69.2145 } },
+  { id: 't10', name: { ru: 'Bon! Катартал', uz: 'Bon! Qatortol' }, address: { ru: 'Ташкент, ул. Катартал, 28', uz: 'Toshkent, Qatortol ko\'chasi, 28' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 144-00-54', coordinates: { lat: 41.2912, lng: 69.2148 } },
+  { id: 't11', name: { ru: 'Bon! Саёхат', uz: 'Bon! Sayohat' }, address: { ru: 'Ташкент, ул. Саёхат, 2', uz: 'Toshkent, Sayohat ko\'chasi, 2' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 99 370-11-01', coordinates: { lat: 41.3245, lng: 69.3142 } },
+  { id: 't12', name: { ru: 'Bon! Аккурган (14А)', uz: 'Bon! Oqqo\'rg\'on (14A)' }, address: { ru: 'Ташкент, ул. Аккурган, 14А', uz: 'Toshkent, Oqqo\'rg\'on ko\'chasi, 14A' }, workingHours: { ru: '07:30 - 22:00', uz: '07:30 - 22:00' }, phone: '+998 99 444 18 04', coordinates: { lat: 41.3285, lng: 69.2942 } },
+  { id: 't13', name: { ru: 'Bon! Чимкент', uz: 'Bon! Chimkent' }, address: { ru: 'Ташкент, ул. Чимкент, 21', uz: 'Toshkent, Chimkent ko\'chasi, 21' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 99 444-18-02', coordinates: { lat: 41.3045, lng: 69.2712 } },
+  { id: 't14', name: { ru: 'Bon! Тепамасжид', uz: 'Bon! Tepamasjid' }, address: { ru: 'Ташкент, ул. Тепамасжид, 1', uz: 'Toshkent, Tepamasjid ko\'chasi, 1' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 134-13-83', coordinates: { lat: 41.3412, lng: 69.3112 } },
+  { id: 't15', name: { ru: 'Bon! Амир Темур (72А)', uz: 'Bon! Amir Temur (72A)' }, address: { ru: 'Ташкент, Проспект Амира Темура, 72А', uz: 'Toshkent, Amir Temur shoh-ko\'chasi, 72A' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 017-30-30', coordinates: { lat: 41.3212, lng: 69.2812 } },
+  { id: 't16', name: { ru: 'Bon! Истикбол', uz: 'Bon! Istiqlol' }, address: { ru: 'Ташкент, ул. Истикбол, 18', uz: 'Toshkent, Istiqlol ko\'chasi, 18' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 992-95-15', coordinates: { lat: 41.3112, lng: 69.2842 } },
+  { id: 't17', name: { ru: 'Bon! Навои (22)', uz: 'Bon! Navoiy (22)' }, address: { ru: 'Ташкент, Проспект Алишера Навои, 22', uz: 'Toshkent, Alisher Navoiy shoh ko\'chasi, 22' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 71 241-20-67', coordinates: { lat: 41.3185, lng: 69.2512 } },
+  { id: 't18', name: { ru: 'Bon! Бабура (6)', uz: 'Bon! Bobur (6)' }, address: { ru: 'Ташкент, ул. Бабура, 6', uz: 'Toshkent, Bobur ko\'chasi, 6' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 670-39-89', coordinates: { lat: 41.2912, lng: 69.2512 } },
+  { id: 't19', name: { ru: 'Bon! Ахмада Дониша', uz: 'Bon! Ahmad Donish' }, address: { ru: 'Ташкент, ул. Ахмада Дониша, 80', uz: 'Toshkent, Ahmad Donish ko\'chasi, 80' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 99 010-74-59', coordinates: { lat: 41.3612, lng: 69.2912 } },
+  { id: 't20', name: { ru: 'Bon! Сайрам', uz: 'Bon! Sayram' }, address: { ru: 'Ташкент, ул. Сайрам, 26/14', uz: 'Toshkent, Sayram ko\'chasi, 26/14' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 974-99-22', coordinates: { lat: 41.3345, lng: 69.3112 } },
+  { id: 't21', name: { ru: 'Bon! Нуронийлар', uz: 'Bon! Nuroniylar' }, address: { ru: 'Ташкент, ул. Нуронийлар, 2', uz: 'Toshkent, Nuroniylar ko\'chasi, 2' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 77 311-82-82', coordinates: { lat: 41.3142, lng: 69.3012 } },
+  { id: 't22', name: { ru: 'Bon! Амир Темур (118А)', uz: 'Bon! Amir Temur (118A)' }, address: { ru: 'Ташкент, Проспект Амира Темура, 118А', uz: 'Toshkent, Amir Temur shoh ko\'chasi, 118A' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 77 311-82-84', coordinates: { lat: 41.3412, lng: 69.2812 } },
+  { id: 't23', name: { ru: 'Bon! Бабура (174)', uz: 'Bon! Bobur (174)' }, address: { ru: 'Ташкент, ул. Бабура, 174', uz: 'Toshkent, Bobur ko\'chasi, 174' }, workingHours: { ru: '10:00 - 22:00', uz: '10:00 - 22:00' }, phone: '+998 95 845-17-19', coordinates: { lat: 41.2585, lng: 69.2412 } },
+  { id: 't24', name: { ru: 'Bon! Заргалик', uz: 'Bon! Zargarlik' }, address: { ru: 'Ташкент, ул. Заргалик, 10А', uz: 'Toshkent, Zargarlik ko\'chasi, 10A' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 124-43-41', coordinates: { lat: 41.2612, lng: 69.2112 } },
+  { id: 't25', name: { ru: 'Bon! Кичик Бешагач', uz: 'Bon! Kichik Beshyog\'och' }, address: { ru: 'Ташкент, ул. Кичик Бешагач, 124/1', uz: 'Toshkent, Kichik Beshyog\'och ko\'chasi, 124/1' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 77 798-88-97', coordinates: { lat: 41.2842, lng: 69.2412 } },
+  { id: 't26', name: { ru: 'Bon! Аккурган (33)', uz: 'Bon! Oqqo\'rg\'on (33)' }, address: { ru: 'Ташкент, ул. Аккурган, 33', uz: 'Toshkent, Oqqo\'rg\'on ko\'chasi, 33' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 150-15-50', coordinates: { lat: 41.3312, lng: 69.2942 } },
+
+  // РЕГИОНЫ
+  { id: 'r1', name: { ru: 'Bon! Бухара', uz: 'Bon! Buxoro' }, address: { ru: 'Бухара, ул. Бахауддина Накшбанда, 4', uz: 'Buxoro, Baxauddin Naqshaband ko\'chasi, 4' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 795-25-21', coordinates: { lat: 39.7747, lng: 64.4286 } },
+  { id: 'r2', name: { ru: 'Bon! Андижан', uz: 'Bon! Andijon' }, address: { ru: 'Андижан, ул. Машраба, 62В', uz: 'Andijon, Mashrab ko\'chasi, 62B' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 95 959-50-91', coordinates: { lat: 40.7821, lng: 72.3442 } },
+  { id: 'r3', name: { ru: 'Bon! Самарканд', uz: 'Bon! Samarqand' }, address: { ru: 'Самарканд, ул. Амира Темура, 24', uz: 'Samarqand, Amir Temur ko\'chasi, 24' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 77 736-36-87', coordinates: { lat: 39.6542, lng: 66.9597 } },
+  { id: 'r4', name: { ru: 'Bon! Чирчик', uz: 'Bon! Chirchiq' }, address: { ru: 'Чирчик, ул. Амира Тимура, 69', uz: 'Chirchiq, Amir Temur ko\'chasi, 69' }, workingHours: { ru: '08:00 - 22:00', uz: '08:00 - 22:00' }, phone: '+998 77 798-88-79', coordinates: { lat: 41.4689, lng: 69.5822 } }
 ];
