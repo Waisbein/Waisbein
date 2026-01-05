@@ -10,7 +10,7 @@ interface BranchesDetailProps {
 export const BranchesDetail: React.FC<BranchesDetailProps> = ({ lang }) => {
   const t = {
     title: lang === 'ru' ? 'Наши Филиалы' : 'Bizning Filiallar',
-    regions: lang === 'ru' ? 'Регионы' : 'Hududlar',
+    regions: lang === 'ru' ? 'Регионы' : 'Viloyatlar',
     tashkent: lang === 'ru' ? 'Ташкент' : 'Toshkent',
     open: lang === 'ru' ? 'ОТКРЫТО' : 'OCHIQ',
     call: lang === 'ru' ? 'Позвонить' : 'Qo\'ng\'iroq qilish',
