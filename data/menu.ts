@@ -3,6 +3,7 @@ import { MenuItem, Branch } from '../types';
 const ASSETS_BASE_URL = "https://raw.githubusercontent.com/Waisbein/Waisbein/main/public/menu";
 const NEWS_FOLDER = "1.%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B8";
 const BREAKFASTS_ASSETS_URL = "https://raw.githubusercontent.com/Waisbein/Waisbein/main/public/menu/3.%20%D0%97%D0%B0%D0%B2%D1%82%D1%80%D0%B0%D0%BA%D0%B8";
+const COFFEE_ASSETS_URL = "https://raw.githubusercontent.com/Waisbein/Waisbein/main/public/menu/%D0%9A%D0%BE%D1%84%D0%B5";
 
 export const menuItems: MenuItem[] = [
   // 1. НОВИНКИ
@@ -50,7 +51,7 @@ export const menuItems: MenuItem[] = [
     name: { ru: 'Луковый суп', uz: 'Piyozli sho\'rva' },
     longDescription: {
       ru: 'Карамелизированный лук, томлённый в насыщенном курином бульоне. Подаётся под гренкой с расплавленным сыром «Гауда», пармезаном и зелёным маслом из укропа.',
-      uz: 'To\'yingan tovuq bulyonida dimlangan karamellangan piyoz. Erigan "Gauda" pishlog\'i, parmezan va shivitli yashil moyli grenka bilan tortiladi.'
+      uz: 'To\'yingan tovuq bulyonida dimlangan karamellangan piyoz. Erigan "Gauda" pishlog\'i, parmezan va shivitli yashil moyли grenka bilan tortiladi.'
     },
     allergens: { ru: 'лактоза, орех', uz: 'laktosa, yong\'oq' },
     price: 35000,
@@ -138,7 +139,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'br-8',
-    name: { ru: 'Классический завтрак Bon! с говяжьими колбасками', uz: 'Mol go\'shtli kolbasalar bilan Bon! klassik nonushtasi' },
+    name: { ru: 'Классический завтрак Bon! с говяжьими колбасками', uz: 'Mol go\'shtli kolbasalar bilan Bon! классик nonushtasi' },
     longDescription: { ru: 'Два жареных яйца, артизанский льняной хлеб, запечённые томаты и грибы. Подаётся с микс-салатом под зелёным маслом из укропа.', uz: 'Ikkita qovurilgan tuxum, artizan zig\'ir noni, pishirilgan pomidor va qo\'ziqorinlar. Shivitli yashil moy bilan miks-salat hamrohligida tortiladi.' },
     allergens: { ru: 'яйцо, семечки подсолнечника, грибы, глютен', uz: 'tuxum, kungaboqar urug\'lari, qo\'ziqorinlar, glyuten' },
     price: 50000,
@@ -147,7 +148,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'br-9',
-    name: { ru: 'Классический завтрак Bon! с куриным филе', uz: 'Tovuq filesi bilan Bon! klassik nonushtasi' },
+    name: { ru: 'Классический завтрак Bon! с куриным филе', uz: 'Tovuq filesi bilan Bon! классик nonushtasi' },
     longDescription: { ru: 'Два жареных яйца, артизанский льняной хлеб, запечённые томаты и грибы. Подаётся with микс-салатом под зелёным маслом из укропа.', uz: 'Ikkita qovurilgan tuxum, artizan zig\'ir noni, pishirilgan pomidor va qo\'ziqorinlar. Shivitli yashil moy bilan miks-salat hamrohligida tortiladi.' },
     allergens: { ru: 'яйцо, семечки подсолнечника, грибы, глютен', uz: 'tuxum, kungaboqar urug\'lari, qo\'ziqorinlar, glyuten' },
     price: 50000,
@@ -194,7 +195,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 's3',
     name: { ru: 'Рикотник с мороженым', uz: 'Muzqaymoqli rikotnik' },
-    description: { ru: 'Тёплые рикотники с ванильным мороженым', uz: 'Vanilli muzqaymoq bilan issiq rikotniklar' },
+    description: { ru: 'Тёплые рикотники с ванильным мороженым', uz: 'Vanilli muzqaymoq bilan issiq rikotnikлар' },
     longDescription: {
       ru: 'Тёплые рикотники на основе сыра "Рикотта" и манной крупы. Подаются с ванильным мороженым, ягодным джемом, гранолой и голубикой.',
       uz: '"Rikotta" pishlog\'i va manniy yormasi asosidagi issiq rikotniklar. Vanilli muzqaymoq, rezavorli jem, granola va ko\'k meva com tortiladi.'
@@ -212,7 +213,7 @@ export const menuItems: MenuItem[] = [
     price: { 'Petit': 20000, 'Grand': 23000 },
     volumes: { 'Petit': '30 мл', 'Grand': '60 мл' },
     category: 'coffee',
-    image: 'https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?q=80&w=400&auto=format&fit=crop'
+    image: "https://raw.githubusercontent.com/Waisbein/Waisbein/main/public/menu/%D0%9A%D0%BE%D1%84%D0%B5/espresso.png"
   },
   {
     id: 'c2',
@@ -220,7 +221,7 @@ export const menuItems: MenuItem[] = [
     price: { 'Petit': 21000, 'Grand': 24000 },
     volumes: { 'Petit': '200 мл', 'Grand': '300 мл' },
     category: 'coffee',
-    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=400&format=fit&crop'
+    image: "https://raw.githubusercontent.com/Waisbein/Waisbein/main/public/menu/%D0%9A%D0%BE%D1%84%D0%B5/amerikano.png"
   },
   {
     id: 'c3',
@@ -228,7 +229,7 @@ export const menuItems: MenuItem[] = [
     price: { 'Petit': 25000, 'Grand': 31000, 'Extra Grand': 39000 },
     volumes: { 'Petit': '200 мл', 'Grand': '300 мл', 'Extra Grand': '450 мл' },
     category: 'coffee',
-    image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=400&auto=format&fit=crop'
+    image: "https://raw.githubusercontent.com/Waisbein/Waisbein/main/public/menu/%D0%9A%D0%BE%D1%84%D0%B5/kapuchino.png"
   },
   {
     id: 'c4',
@@ -236,7 +237,7 @@ export const menuItems: MenuItem[] = [
     price: { 'Grand': 27000, 'Extra Grand': 37000 },
     volumes: { 'Grand': '300 мл', 'Extra Grand': '450 мл' },
     category: 'coffee',
-    image: 'https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?q=80&w=400&auto=format&fit=crop'
+    image: "https://raw.githubusercontent.com/Waisbein/Waisbein/main/public/menu/%D0%9A%D0%BE%D1%84%D0%B5/latte.png"
   },
   {
     id: 'c5',
@@ -244,7 +245,7 @@ export const menuItems: MenuItem[] = [
     price: { 'Petit': 29000 },
     volumes: { 'Petit': '200 мл' },
     category: 'coffee',
-    image: 'https://images.unsplash.com/photo-1577968897866-be5025bc3992?q=80&w=400&auto=format&fit=crop'
+    image: "https://raw.githubusercontent.com/Waisbein/Waisbein/main/public/menu/%D0%9A%D0%BE%D1%84%D0%B5/fletuayt.png"
   },
   {
     id: 'c6',
@@ -253,14 +254,14 @@ export const menuItems: MenuItem[] = [
     price: { 'Grand': 42000 },
     volumes: { 'Grand': '300 мл' },
     category: 'coffee',
-    image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=400&auto=format&fit=crop'
+    image: "https://raw.githubusercontent.com/Waisbein/Waisbein/main/public/menu/%D0%9A%D0%BE%D1%84%D0%B5/raf.png"
   },
   {
     id: 'c7',
     name: { ru: 'Сироп на выбор', uz: 'Tanlov bo\'yicha sirop' },
     price: 7000,
     category: 'coffee',
-    image: 'https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?q=80&w=400&auto=format&fit=crop'
+    image: "https://raw.githubusercontent.com/Waisbein/Waisbein/main/public/menu/%D0%9A%D0%BE%D1%84%D0%B5/sirop.jpg"
   },
 
   // БЕЗ КОФЕИНА
